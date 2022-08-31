@@ -1,0 +1,15 @@
+{
+  "name": "translate_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Gabriel-Lucena/translate_api",
+  "author": "Gabriel Lucena da Cunha",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn nodemon"
+  },
+  "devDependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
