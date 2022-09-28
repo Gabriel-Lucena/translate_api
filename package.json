@@ -6,7 +6,8 @@
   "author": "Gabriel Lucena da Cunha",
   "license": "MIT",
   "scripts": {
-    "start": "yarn nodemon"
+    "dev": "yarn nodemon",
+    "start": "yarn node index.js"
   },
   "devDependencies": {
     "express": "^4.18.1",
