@@ -1,5 +1,12 @@
 {
   "bed": "cama",
+  "mattress":"colchão",
+  "pillow": "travesseiro",
+  "sheet": "lençol",
+  "writing desk": "escrivaninha",
   "chair": "cadeira",
-  "writing desk": "escrivaninha"
+  "headboard":"cabeceira",
+  "television": "televisão",
+  "carpet": "tapete",
+  "mirror": "espelho"
 }
