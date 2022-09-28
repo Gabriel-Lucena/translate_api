@@ -16,8 +16,12 @@ const getByValue = (value) => {
 router.get('/:portuguese_word', function (req, res) {
   const { portuguese_word } = req.params;
 
-  const english_word = getByValue(portuguese_word);
+  const lowerCase = portuguese_word.toLowerCase();
 
+  const english_word = getByValue(lowerCase);
+
+  console.log(english_word);
+  
   return res.status(200).send(english_word);
 });
 
